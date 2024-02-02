@@ -1,6 +1,6 @@
 # DEMO zadanie - zoznam športových zápasov
 
-demo link: 
+demo link: https://luboskadasi.github.io/jQuery-mobile-DEMO/ 
 
 ## Použité verzie
 
