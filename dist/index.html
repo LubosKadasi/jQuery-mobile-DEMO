@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="sk">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>⚽ Zoznam zápasov</title>
+
+  <!-- CDN -->
+  <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+  <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+  <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+  <!-- /CDN -->
+
+  <link rel="stylesheet" href="./css/app.css">
+  <script src="./js/app.js"></script>
+
+</head>
+
+<body>
+
+  <div data-role="page" id="matches-page" class="page">
+    <div class="container">
+
+      <div class="ui-block main">
+
+        <div data-role="header" data-theme="b">
+          <h1>Zoznam zápasov</h1>
+        </div>
+
+        <div data-role="content" id="matches-content" class="list">
+          <!-- Zoznam zápasov bude vložený sem dynamicky -->
+        </div>
+
+      </div>
+
+      <!-- Popup pre detaily zápasu -->
+      <div data-role="popup" id="match-popup" data-overlay-theme="b" data-theme="b" data-dismissible="false"
+        style="max-width:400px;">
+        <div data-role="header">
+          <h1>Detail zápasu</h1>
+        </div>
+        <div role="main" class="ui-content" id="match-popup-content">
+          <!-- Obsah bude doplnený dynamicky pomocou JavaScriptu -->
+        </div>
+        <div data-role="footer">
+          <a href="#" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-btn-b" data-rel="back">Zavrieť</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</body>
+
+</html>

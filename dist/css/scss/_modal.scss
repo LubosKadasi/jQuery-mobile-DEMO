@@ -1,0 +1,19 @@
+.ui-popup {
+  .ui-footer {
+    text-align: center;
+    .ui-btn {
+      margin: 15px auto;
+    }
+  }
+  h2 {
+    padding: 1em 0;
+    text-align: center;
+    small{
+      font-weight: normal;
+      color: rgba($color: #ffffff, $alpha: 0.75);
+    }
+  }
+  .notification {
+    color: rgb(255, 136, 0);;
+  }
+}

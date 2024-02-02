@@ -1,0 +1,75 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+}
+
+.page {
+  background-image: url("../images/mario-klassen-70YxSTWa2Zw-unsplash.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative;
+}
+.page::before {
+  content: "";
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  z-index: 0;
+}
+
+.container {
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+}
+
+.main {
+  width: 100%;
+  background-color: #fff;
+  z-index: 1;
+}
+@media (min-width: 992px) {
+  .main {
+    border-radius: 16px;
+    overflow: hidden;
+    margin: 30px auto;
+    max-width: 1024px;
+    box-shadow: 0 0 100px #000;
+  }
+}
+
+.event-group h4 {
+  text-align: center;
+}
+.event-group li {
+  text-align: center;
+}
+
+.list-warning .event-past {
+  background-color: rgb(255, 136, 0) !important;
+}
+.list-error .event-past {
+  background-color: rgb(255, 0, 0) !important;
+}
+
+.ui-popup .ui-footer {
+  text-align: center;
+}
+.ui-popup .ui-footer .ui-btn {
+  margin: 15px auto;
+}
+.ui-popup h2 {
+  padding: 1em 0;
+  text-align: center;
+}
+.ui-popup h2 small {
+  font-weight: normal;
+  color: rgba(255, 255, 255, 0.75);
+}
+.ui-popup .notification {
+  color: rgb(255, 136, 0);
+}/*# sourceMappingURL=app.css.map */

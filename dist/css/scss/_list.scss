@@ -1,0 +1,19 @@
+.event {
+  &-group {
+    h4 { 
+      text-align: center;
+    }
+    li {
+      text-align: center;
+    }
+  }
+}
+
+.list {
+  &-warning .event-past{
+    background-color: rgb(255, 136, 0) !important;
+  }
+  &-error .event-past{
+    background-color: rgb(255, 0, 0) !important;
+  }
+}
